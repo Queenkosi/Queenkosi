@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+    </head>
+    <body>
+    <form action="#" method="#">
+        <!-- LEGEND AND FIELDSET-->
+        <form action="#" method="#">
+            <fieldset>
+                <legend>User Information</legend> 
+        <div>
+            <label for="firstName">First name</label>
+            <input type="text" id="firstName" placeholder="Evelyn" required>
+          </div>
+          <div>
+              <label for="lastName">Last name</label>
+              <input type="text" id="lastName" placeholder="Nwonu" required>
+            </div>
+            <div>
+              <label for="password">Password</label>
+              <input type="password" id="password" placeholder="Type in your password" required>
+            </div>
+            <div>
+            <!-- RADIO TYPE -->
+              <label for="gender">Gender</label>
+      <p>
+      <input type="radio" id="male" value="male" name="gender">
+      <label for="male">male</label>
+      </p>
+      <p>
+      <input type="radio" id="female" value="female" name="gender">
+      <label for="female">female</label>
+      </p>
+      <p>
+      <input type="radio" id="other" value="other" name="gender">
+      <label for="other">others</label>
+      </p>
+            </div>
+            <div>
+            <!-- CHECKBOX TYPE-->
+            <label for="gender">Gender</label>
+      <p>
+      <input type="checkbox" id="male" value="male" name="gender">
+      <label for="male">male</label>
+      </p>
+      <p>
+      <input type="checkbox" id="female" value="female" name="gender">
+      <label for="female">female</label>
+      </p>
+      <p>
+      <input type="checkbox" id="other" value="other" name="gender">
+      <label for="other">others</label>
+      </p>
+            </div>
+            <div>
+              <!-- NUMBER TYPE-->
+              <label for="number">phone Number</label>
+              <input type="number" id="number" required>
+            </div>
+  
+            <!-- NUMBER DECADES -->
+            <P>
+              <label for="decade">Phone Number</label>
+              <input 
+                type="number" 
+                id="decade" 
+                min="1980" 
+                max="2020" 
+                value="1980" 
+                step="10" 
+                required
+                />
+            </P>  
+        </fieldset>
+          <!-- TYPE BUTTON-->
+          <div>
+            <p>
+                <input type="button" value="Submit">
+            </p>
+            <p>
+                <input type="submit" value="Submit">
+            </p>
+            </div>
+            <p>
+                <input type="color">
+            </p>
+            <p>
+                <label for="file">Select your file</label>
+                <input type="file" id="file">
+            </p>
+            <p>
+                <label for="">Range</label>
+                <input type="range">
+            </p>
+            <p>
+                <label for="">Date</label>
+                <input type="date">
+               </p>
+               <p>
+                <label for="">Hidden</label>
+                <input type="hidden">
+               </p>
+               <p>
+                <label for="">Search</label>
+                <input type="search">
+               </p>
+
+               <!-- TEXTAREA -->
+               <div>
+               <label for="message">Leave a message for me</label>
+               <textarea name="message" id="message" cols="40" rows="10" 
+               placeholder="enter a message" maxlength="180" required></textarea>
+               </div>
+
+               <!--SELECT TAG-->
+               <select name="food" id="food"> 
+                  <optgroup label="Food">
+                    <option value="Rice">Rice</option>
+                   <option value="Beans">Beans</option>
+                   <option value="Garri">Garri</option>
+                   <option value="Noodles">Noodles</option>
+                   <option value="Spagetti">Spagetti</option>
+                  </optgroup>
+                   <optgroup label="Liquid">
+                   <option value="Coffee">Coffee</option>
+                   <option value="Milk">Milk</option>
+                   <option value="Lipton">Lipton</option>
+                   <option value="Water">Water</option>
+                   </optgroup>
+               </select>
+               
+               </form>
+        </form>
+    </body>
+</html>

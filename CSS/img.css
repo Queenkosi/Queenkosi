@@ -1,0 +1,14 @@
+* {
+    margin: 10px;
+}
+
+.visible,
+.transparent {
+    opacity: 0.2;
+    filter: alpha(opacity=40);
+}
+
+p {
+    color: lightgreen;
+    text-shadow: -1px; 0 3px black;
+}

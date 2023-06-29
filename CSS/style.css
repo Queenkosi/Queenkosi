@@ -1,0 +1,19 @@
+* {
+    margin: 10px;
+}
+#gradient {
+    height: 100px;
+    background: -webkit-linear-gradient(left top, red,green);
+    background: -o-linear-gradient(bottom right, red,green);
+    background: -moz-linear-gradient(bottom right,red,green);
+    background: linear-gradient(to bottom right, red,green);
+}
+
+#gradient2 {
+    height: 150px;
+    width: 200px;
+    background: -webkit-radial-gradient(red 5%,green 10%,blue 40%,yellow 30%);
+    background: -o-radial-gradient(red 5%,green 10%,blue 40%,yellow 30%);
+    background: -moz-radial-gradient(red 5%,green 10%,blue 40%,yellow 30%);
+    background: radial-gradient(red 5%,green 10%,blue 40%,yellow 30%);
+}
